@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "414875716799",
+    "firebase_url": "https://intern-2a436.firebaseio.com",
+    "project_id": "intern-2a436",
+    "storage_bucket": "intern-2a436.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414875716799:android:1ce64b1935f45969",
+        "android_client_info": {
+          "package_name": "app.nowcare4u.comm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414875716799-a463qmm2rlkghelmoh1pke007655eioj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.intern",
+            "certificate_hash": "8f97c0fa1737ac307b4c143f6f54e939a31a460c"
+          }
+        },
+        {
+          "client_id": "414875716799-ck7sj6f8t41snmiaco98u8re6bhbe26j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKuWU8ofGvoY_JWk5JGAIU4X_8egWKrK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414875716799-ck7sj6f8t41snmiaco98u8re6bhbe26j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

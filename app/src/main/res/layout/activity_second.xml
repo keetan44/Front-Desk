@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/second"
+    android:layout_height="match_parent"
+    tools:context=".Second">
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <TextView
+                android:id="@+id/head"
+                android:text="Enter OTP"
+                android:gravity="center"
+                android:visibility="gone"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/otp"
+                android:padding="5dp"
+                android:textSize="30dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:textColor="#175E7C"
+                android:background="@drawable/edit_text_design"
+                android:visibility="gone"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/verify"
+                android:text="Verify"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

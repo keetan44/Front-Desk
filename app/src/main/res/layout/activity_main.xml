@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/ball"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="39dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:fontFamily="serif-monospace"
+                    android:textColor="#FF0800"
+                    android:text="Set Up Meeting"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/image"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/name"
+                android:textSize="25dp"
+                android:hint="Name"
+                android:textColor="#175E7C"
+                android:background="@drawable/edit_text_design"
+                android:inputType="textPersonName"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"/>
+
+
+            <EditText
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/mobile"
+                android:textSize="25dp"
+                android:hint="Mobile"
+                android:textColor="#175E7C"
+                android:background="@drawable/edit_text_design"
+                android:inputType="number"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"/>
+
+
+            <EditText
+                android:id="@+id/toMeet"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:background="@drawable/edit_text_design"
+                android:inputType="textPersonName"
+                android:hint="To Meet"
+                android:textColor="#175E7C"
+                android:layout_marginTop="20dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/selectImage"
+                    android:text="Take Picture"
+                    android:textColor="#FFF"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button_bg_rounded_corners"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"/>
+
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/certi"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    android:id="@+id/selectCerti"
+                    android:textColor="#FFF"
+                    android:text="Capture Certificate"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button_bg_rounded_corners"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/next"
+                    android:text="Next"
+                    android:background="@drawable/button_bg_rounded_corners"
+                    android:textColor="#FFF"
+                    android:textAllCaps="false"
+                    android:visibility="gone"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
